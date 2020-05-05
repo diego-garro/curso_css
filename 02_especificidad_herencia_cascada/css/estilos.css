@@ -1,0 +1,36 @@
+/*HERENCIA*/
+/* p {
+    color: purple;
+}
+
+a {
+    color: inherit;
+} */
+
+/*CASCADA*/
+/* Etiqueta -> 0001
+   Clases y pseudoclases -> 0010
+   ID -> 0100
+   Estilos en línea -> 1000
+   !important -> Gana a todo
+*/
+
+#parrafo {
+    color: blueviolet;
+}
+
+.parrafo {
+    color: red;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    color: green !important;
+}
+
+.parrafo-2 {
+    color: black !important;
+}
