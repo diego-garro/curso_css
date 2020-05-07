@@ -1,0 +1,40 @@
+.title::first-letter {
+    color: red;
+    font-size: 3em;
+}
+
+.text::first-line {
+    color: blue;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline::first-letter {
+    color: red;
+    font-size: 2em;
+}
+
+.text::selection {
+    color: lime;
+    background: red;
+}
+
+/*Para usar before y after la propiedad content es
+obligatoria. Son elementos de línea por defecto. Son
+hijos del elemento al que pertenecen*/
+
+.dolar::before,
+.dolar::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+
+/* 
+.dolar::after {
+    content: '';
+} */
