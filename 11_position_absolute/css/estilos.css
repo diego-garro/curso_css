@@ -1,0 +1,53 @@
+.container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border: 3px solid black;
+    position: relative;
+}
+
+[class^=box] {
+    width: 50px;
+    height: 50px;
+}
+
+.box1 {
+    border: 4px solid lightcoral;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box2 {
+    border: 4px solid blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box3 {
+    border: 4px solid green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.box4 {
+    border: 4px solid turquoise;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.box5 {
+    border: 4px solid orange;
+    position: absolute;
+    /*Para poder poner el elemento en el centro se deben dar
+    todos los valores con cero, si no, no funciona*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
