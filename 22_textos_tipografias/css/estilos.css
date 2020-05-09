@@ -1,0 +1,14 @@
+.title {
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+.span {
+    font-size: 200%;
+}
+
+.paragraph {
+    font-family: 'Cascadia code', 'JetBrains Mono';
+    font-weight: normal;
+    font-style: oblique;
+}
