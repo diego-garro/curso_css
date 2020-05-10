@@ -1,0 +1,21 @@
+/* .img {
+    width: 250px;
+    height: 450px;
+    background: red;
+    object-fit: cover;
+    object-position: left;
+    transition: object-position 1s;
+}
+
+.img:hover {
+    object-position: right;
+} */
+
+.img-2 {
+    max-width: 100%;
+    filter: drop-shadow(10px 10px 5px black);
+}
+
+/* .img-2:hover {
+    filter: blur(5px);
+} */
