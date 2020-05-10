@@ -1,0 +1,16 @@
+/* .title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.paragraph {
+    font-family: 'Montserrat', sans-serif;
+} */
+
+@font-face {
+    src: url('../assets/Antique.ttf');
+    font-family: 'myFont';
+}
+
+.title {
+    font-family: myFont;
+}
